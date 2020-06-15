@@ -3,7 +3,11 @@
 #header-nav  {
   background-color: gray;
   border-radius: 0;
+  height: 80px;
+  margin-bottom: 0px;
+  border-bottom-width: 0px;
   border: 2px solid black;
+  
 }
 
 .navbar-brand, h1 { /* Restaurant name */
@@ -28,18 +32,19 @@
   margin-top: -50px;
 }
 
-#nav-list a {
+#nav-list  a {
   color: black;
   text-align: center;
-  background-color: white;
+  background-color: #add8e6;
   padding-top: 0;
   border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  font-size: 1.2em;
+  margin-top: -9px;
 }
 
-#collapsable-nav a {
-	font-size: 1.2em;
-	background-color: white;
-}
 
 
 /** BODY **/
@@ -53,17 +58,23 @@ h3 {
 }
 
 #Chicken {
-	background-color: pink;
-	margin: 15px;
+	background-color: pink;	
+	margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 #Sushi {
 	background-color: #f6b319;
-	margin: 15px;
-
+	margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
+
 
 #Beef {
 	background-color: yellow;
-	margin: 15px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
 }
